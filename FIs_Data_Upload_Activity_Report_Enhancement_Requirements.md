@@ -113,15 +113,18 @@ The Cognos report must query:
 
 ### 5.1 New Column Structure (Example with all data types)
 
-```
-Sr | FI Name              | FI Type | Latest Login | Last Upload | First Month | Latest Month | RTDL Latest Week | ETL Till | RTDL ETL Till | Data Missing
----|----------------------|---------|--------------|-------------|-------------|--------------|------------------|----------|---------------|-------------
-1  | OLP Financial Svcs   | NBFC    | Tue, Jun 16  | Tue, Jun 16 | Jul 2018    | Dec 2024     | 14-Jun-2026     | Dec 2024 | 31-May-2026   | No
-2  | United Bank Limited  | CB      | Mon, Jun 15  | Tue, Jun 15 | Nov 2018    | Dec 2024     | N/A             | Dec 2024 | N/A           | No
-3  | Zarai Taraqqi Bank   | NBFC    | Tue, Jun 15  | Mon, Jun 15 | Dec 2025    | May 2026     | 07-Jun-2026     | Apr 2026 | 31-May-2026   | Yes
-4  | Muawin               | NBFC    | Mon, Jun 15  | Mon, Jun 15 | Feb 2021    | Jun 2026     | 14-Jun-2026     | Jun 2026 | 07-Jun-2026   | Yes
-5  | OPMCL                | MFI     | Tue, Jun 16  | Tue, Jun 16 | Jun 2012    | Aug 2025     | N/A             | Apr 2026 | N/A           | No
-```
+| Sr | FI Name | FI Type | Latest Login | Last Upload | First Month | Latest Month | RTDL Latest Week | ETL Till | RTDL ETL Till | Data Missing |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | OLP Financial Services Pakistan Limited | NBFC | Tue, Jun 16 | Tue, Jun 16 | Jul 2018 | Dec 2024 | 14-Jun-2026 | Dec 2024 | 31-May-2026 | No |
+| 2 | United Bank Limited | CB | Mon, Jun 15 | Tue, Jun 15 | Nov 2018 | Dec 2024 | N/A | Dec 2024 | N/A | No |
+| 3 | Zarai Taraqqi Bank Limited | NBFC | Tue, Jun 15 | Mon, Jun 15 | Dec 2025 | May 2026 | 07-Jun-2026 | Apr 2026 | 31-May-2026 | Yes |
+| 4 | Muawin | NBFC | Mon, Jun 15 | Mon, Jun 15 | Feb 2021 | Jun 2026 | 14-Jun-2026 | Jun 2026 | 07-Jun-2026 | Yes |
+| 5 | OPMCL | MFI | Tue, Jun 16 | Tue, Jun 16 | Jun 2012 | Aug 2025 | N/A | Apr 2026 | N/A | No |
+| 6 | Rural Community Development Programme | MFI | Mon, Jun 15 | Mon, Jun 15 | Oct 2014 | May 2026 | N/A | Apr 2026 | N/A | No |
+| 7 | Agahe Pakistan | MFI | Tue, Jun 16 | Mon, Jun 15 | Jan 2014 | May 2026 | N/A | Apr 2026 | N/A | No |
+| 8 | Aga Microfinance Bank Limited | MFB | Tue, Jun 16 | Tue, Jun 16 | Feb 2015 | Dec 2024 | N/A | Dec 2024 | N/A | Yes |
+| 9 | ABHI Microfinance Bank Limited | MFB | Tue, Jun 16 | Tue, Jun 16 | Oct 2016 | Dec 2024 | N/A | Dec 2024 | N/A | Yes |
+| 10 | Faysal Bank | CB | Sat, Jun 15 | Sat, Jun 15 | Jan 2018 | Dec 2024 | N/A | Dec 2024 | N/A | No |
 
 ### 5.2 Report Display Rules
 
